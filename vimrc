@@ -475,8 +475,8 @@ if has("gui_running")
     set guitablabel=%M\ %t
 endif
 
+" Changes to make vim color in tmux.
 set termguicolors
-
 
 if exists('+termguicolors')
     let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
